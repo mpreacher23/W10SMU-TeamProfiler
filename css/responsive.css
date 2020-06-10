@@ -1,0 +1,260 @@
+
+@media (min-width: 1367px) and (max-width: 1920px){
+.mobile-menu-area{
+  display: none;
+}
+
+}
+
+
+@media (min-width: 1170px) and (max-width: 1366px) {
+.mobile-menu-area{
+  display: none;
+}
+.marg-area input{
+  margin-bottom: 50px;
+}
+}
+
+@media (min-width: 992px) and (max-width: 1169px) {
+
+.mobile-menu-area{
+  display: none;
+}
+.marg-area input{
+  margin-bottom: 50px;
+}
+.single-project-title {
+  font-size: 24px;
+  padding-bottom: 15px;
+}
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+.portfolio-column-count-3 .portfolio-item {
+  width: 50%;
+}
+.logo {
+  position: relative;
+  z-index: 2;
+}
+.cd-headline.clip .cd-words-wrapper {
+  display: block;
+}
+.area-heading-style-two {
+  width: 80%;
+}
+.single-contact-option {
+  margin-bottom: 50px;
+}
+.marg-area input{
+  margin-bottom: 20px;
+}
+.marg-area:last-child input {
+  margin-bottom: 50px;
+}
+
+.about-heading h1 {
+  font-size: 30px;
+  font-weight: 500;
+  letter-spacing: 1px;
+  line-height: 1;
+}
+.about-heading p {
+  font-size: 13px;
+  letter-spacing: 1px;
+  margin: 0 0 30px;
+}
+
+
+
+
+.about-text-content h1 {
+  color: #fff;
+  font-size: 30px;
+}
+.single-portfolio-meta li span {
+  color: #444;
+  display: block;
+  font-weight: bold;
+  margin-bottom: 5px;
+  width: 100%;
+}
+.single-project-title {
+  display: inline-block;
+  font-size: 24px;
+  line-height: 30px;
+  margin-bottom: 20px;
+  padding-bottom: 15px;
+  text-transform: unset;
+}
+}
+
+@media (max-width: 767px) {
+
+rgba(255, 255, 255, 0.9) none repeat scroll 0 0;
+
+.rows-standard-row {
+  padding: 80px 0;
+}
+.portfolio-column-count-3 .portfolio-item {
+  width: 100%;
+}
+
+.logo {
+  position: relative;
+  z-index: 2;
+}
+
+.cd-headline.clip .cd-words-wrapper {
+  display: block;
+}
+
+.text-left .portfolio-filter > li {
+  margin: 0 30px 15px 0;
+}
+.text-left .portfolio-filter > li:last-child {
+  margin: 0;
+}
+
+.pagination-area {
+  margin-top: 60px;
+}
+.resize-bg {
+  height: 370px;
+}
+.area-heading-style-two {
+  width: 100%;
+}
+.single-contact-option {
+  margin-bottom: 50px;
+}
+.marg-area input{
+  margin-bottom: 20px;
+}
+.marg-area:last-child input {
+  margin-bottom: 20px;
+}
+.footer-menu {
+  display: none;
+  margin-bottom: 20px;
+}
+.portfolio-fullwidth .portfolio-filter-wrap {
+  margin: auto;
+  width: 90%;
+}
+.portfolio-filter > li + li {
+  margin-left: 20px;
+}
+
+.social-bookmark > li + li {
+  margin-left: 10px;
+}
+.message-box-area input {
+  float: left;
+}
+.about-heading h1 {
+  font-size: 22px;
+  font-weight: 600;
+}
+.about-heading p {
+  margin: 0 0 30px;
+}
+.rows-standard-row.bg-1 {
+  padding: 120px 0;
+}
+
+.col-md-4.col-sm-6:nth-child(-n+2) .single-member {
+  margin-bottom: 30px;
+}
+
+
+.post-meta span {
+  display: inline-block;
+  margin-bottom: 7px;
+  margin-right: 6px;
+  padding-right: 10px;
+}
+.post-meta {
+  margin-bottom: 20px;
+}
+.post-content > h4 {
+  font-size: 18px;
+  line-height: 28px;
+}
+
+.page-cat {
+  font-size: 20px;
+}
+.media-left {
+  display: block;
+  margin-bottom: 25px;
+  padding-right: 0;
+  text-align: center;
+  width: 100%;
+}
+
+.input-field {
+  width: 100%;
+}
+.media-list li:last-child {
+  border-bottom: 1px solid #e5e5e5;
+  margin: 0;
+}
+.media-replay {
+  margin-left: 0;
+}
+.panel-title {
+  color: inherit;
+  font-size: 15px;
+  letter-spacing: 1px;
+  line-height: 23px;
+  margin-bottom: 0;
+  margin-top: 0;
+  padding-right: 10px;
+}
+.area-title {
+  font-size: 22px;
+  font-weight: 400;
+  letter-spacing: 2px;
+  line-height: 26px;
+  margin-bottom: 15px;
+}
+
+.about-text-content h1 {
+  color: #fff;
+  font-size: 24px;
+  line-height: 1;
+  margin-bottom: 5px;
+}
+
+.single-project-title {
+  font-size: 24px;
+  line-height: 30px;
+  margin-bottom: 20px;
+  padding-bottom: 15px;
+}
+
+.contact-link {
+  display: block;
+}
+
+.resize-bg {
+  height: 450px;
+}
+
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+
+.midchart {
+  padding-left: 42%;
+
+}
+@media (max-width: 1116px) {
+  .fixed-menu li a .right-icon {
+    width: 100px;
+  }
+}
+
+
+@media (max-width: 480px) {
+}
