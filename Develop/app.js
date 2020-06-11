@@ -1,16 +1,92 @@
+// Dependencies 
 const Manager = require("./lib/Manager");
 const Engineer = require("./lib/Engineer");
 const Intern = require("./lib/Intern");
 const inquirer = require("inquirer");
 const path = require("path");
-const fs = require("fs");
-​
+const fs = require("fs");​
+// Output folders
 const OUTPUT_DIR = path.resolve(__dirname, "output")
-const outputPath = path.join(OUTPUT_DIR, "team.html");
-​
-const render = require("./lib/htmlRenderer");
-​
-​
+const outputPath = path.join(OUTPUT_DIR, "index.html");​
+// Render 
+const render = require("./lib/htmlRenderer");​​
+// Notes: What elements are important...
+
+// Need arrays 
+
+const employeeArray = [];
+
+function init() {
+    inquirer
+        .prompt(employeeQuestions.concat(managerQuestions))
+        .then(({
+            name,
+            id,
+            email,
+            officeNumber
+        }) => {
+            let manager = new Manager(name, id, email, officeNumber);
+            employeeArray.push(manager);
+            getEmployee();
+        })
+}
+
+function getEmployee() {
+    inquirer
+        .prompt(defineEmployee)
+        .then(({
+            userChoice
+        }) => {
+            switch (userChoice) {
+                case 'Engineer':
+                    getEngineer();
+                    break;
+                case 'Intern':
+                    getIntern();
+                    break;
+                case 'Complete':
+                    htmlRenderer(employeeArray);
+                    break;
+            }
+        })
+}
+
+function getEngineer() {
+    inquirer
+        .prompt(employeeQuestions.concat(engineerQuestions))
+        .then(({
+            name,
+            id,
+            email,
+            githubUsername
+        }) => {
+            let engineer = new Engineer(name, id, email, githubUsername);
+            employeeArray.push(engineer);
+            getEmployee();
+        })
+}
+
+function getIntern() {
+    inquirer
+        .prompt(employeeQuestions.concat(internQuestions))
+        .then(({
+            name,
+            id,
+            email,
+            school
+        }) => {
+            let intern = new Intern(name, id, email.school);
+            employeeArray.push(intern)
+            getEmployee();
+        })
+}
+
+init();
+
+
+
+
+
 // Write code to use inquirer to gather information about the development team members,
 // and to create objects for each team member (using the correct classes as blueprints!)
 ​
