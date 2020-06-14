@@ -18,6 +18,7 @@ You will build a software engineering team generator command line application. T
 **[License](#License)**</br>
 **[Contributors](#Contributors)**</br>
 **[Tests](#Tests)**<br>
+**[Demo](#Demo)**<br>
 **[Contact](#Contact)**<br>
 
 ## **Installation**<br>
@@ -39,7 +40,19 @@ Tests were run using Jest library, to run the test use `npm run test`.
 To run tests, this is using Jest Lib., use the command “npm run test” to activate. Make sure you’re in the correct directory when you run the test...
 
 <br>
+
+## **Demo-App**<br>
+
+![App Running Demo](demo/app-working.gif)
 <br>
+
+## TestPass
+
+
+![App Running Demo](demo/test-passed.gif)
+
+<br>
+
 
 ## **Contact**
 mpreacher23@gmail.com
